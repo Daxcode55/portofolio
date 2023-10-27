@@ -195,7 +195,11 @@ nav ul li a {
 
 footer {
   margin-top: 65px;
+<<<<<<< HEAD
   background: url('/assets/bgFooter.png');
+=======
+  background-image: url("/assets/Vector.png");
+>>>>>>> 7ecde5520c059c40d3963dc6b5df65d4e52266d8
   background-repeat: no-repeat;
   background-size: cover;
   height: 516px;
