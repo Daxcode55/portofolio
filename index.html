@@ -12,10 +12,10 @@
       <p class="logo">RIFKI DAI</p>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a class="link" href="#home">Home</a></li>
+          <li><a class="link" href="#about">About</a></li>
+          <li><a class="link" href="#skills">Skills</a></li>
+          <li><a class="link" href="#contact">Contact</a></li>
         </ul>
       </nav>
       <svg id="btn-menu" class="svg-nav" xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25" fill="none">
@@ -40,9 +40,9 @@
         </div>
 
         <div class="content-right">
-            <svg class="blob" xmlns="http://www.w3.org/2000/svg" width="544" height="544" viewBox="0 0 544 544" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M549.465 172.791C571.239 223.448 582.041 275.82 581.454 330.92C580.788 393.335 590.353 466.388 545.87 510.003C501.476 553.532 428.85 542.334 366.654 541.531C315.399 540.869 266.343 529.59 220.862 505.808C176.673 482.701 144.727 446.146 112.073 408.41C69.146 358.803 5.77488 317.176 1.03286 251.767C-3.91398 183.535 37.3806 117.747 87.652 71.5652C136.134 27.0272 203.395 13.9448 268.741 5.838C330.78 -1.85844 396.799 -5.47302 450.621 26.5359C502.426 57.3456 525.646 117.376 549.465 172.791Z" fill="#C0BEB7"/>
-            </svg>
+          <svg class="blob" xmlns="http://www.w3.org/2000/svg" width="544" height="544" viewBox="0 0 544 544" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M549.465 172.791C571.239 223.448 582.041 275.82 581.454 330.92C580.788 393.335 590.353 466.388 545.87 510.003C501.476 553.532 428.85 542.334 366.654 541.531C315.399 540.869 266.343 529.59 220.862 505.808C176.673 482.701 144.727 446.146 112.073 408.41C69.1461 358.803 5.77491 317.176 1.03286 251.767C-3.91396 183.535 37.3806 117.747 87.652 71.5652C136.134 27.0272 203.395 13.9448 268.741 5.838C330.78 -1.85844 396.799 -5.47302 450.621 26.5359C502.426 57.3456 525.646 117.376 549.465 172.791Z" fill="#393646"/>
+          </svg>
             <img src="assets/rifki.png" alt="">
         </div>
       </section>
@@ -51,21 +51,42 @@
         <h2>About Me</h2>
         <div class="container-card-content">
           <div class="card person">
-            <svg class="svg-card" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12 12q-1.65 0-2.825-1.175T8 8q0-1.65 1.175-2.825T12 4q1.65 0 2.825 1.175T16 8q0 1.65-1.175 2.825T12 12Zm-8 8v-2.8q0-.85.438-1.563T5.6 14.55q1.55-.775 3.15-1.163T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20H4Z"/></svg>
-            <h3>Who Am I?</h3>
-            <p>Hi, I'm Rifki<br>web developer from Indonesia</p>
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <svg class="svg-card" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12 12q-1.65 0-2.825-1.175T8 8q0-1.65 1.175-2.825T12 4q1.65 0 2.825 1.175T16 8q0 1.65-1.175 2.825T12 12Zm-8 8v-2.8q0-.85.438-1.563T5.6 14.55q1.55-.775 3.15-1.163T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20H4Z"/></svg>
+                <h3>Who Am I?</h3>
+              </div>
+
+              <div class="flip-card-back">
+                <p>Hi, I'm Rifki <br> web developer from Indonesia</p>
+              </div>
+            </div>
           </div>
   
           <div class="card study">
-            <svg class="svg-card" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 17v-6.9L12 15L1 9l11-6l11 6v8h-2Zm-9 4l-7-3.8v-5l7 3.8l7-3.8v5L12 21Z"/></svg>
-            <h3>Study</h3>
-            <p>students at one of the best universities in Indonesia</p>
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <svg class="svg-card" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M21 17v-6.9L12 15L1 9l11-6l11 6v8h-2Zm-9 4l-7-3.8v-5l7 3.8l7-3.8v5L12 21Z"/></svg>
+                <h3>Study</h3>
+              </div>
+
+              <div class="flip-card-back">
+                <p>students at one of the best universities in Indonesia</p>
+              </div>
+            </div>
           </div>
   
           <div class="card experience">
-            <svg class="svg-card" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M17 9h2V7h-2v2Zm0 4h2v-2h-2v2Zm0 4h2v-2h-2v2ZM1 21V11l7-5l7 5v10h-5v-6H6v6H1Zm16 0V10l-7-5.05V3h13v18h-6Z"/></svg>
-            <h3>Experience</h3>
-            <p>freelance web development and web design on fiver</p>
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <svg class="svg-card" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M17 9h2V7h-2v2Zm0 4h2v-2h-2v2Zm0 4h2v-2h-2v2ZM1 21V11l7-5l7 5v10h-5v-6H6v6H1Zm16 0V10l-7-5.05V3h13v18h-6Z"/></svg>
+                <h3>Experience</h3>
+              </div>
+
+              <div class="flip-card-back">
+                <p>freelance web development and web design on fiver</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -92,7 +113,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="contact">
       <div class="wraper-content-footer">
         <div class="contact">
           <h3>contact :</h3>
